@@ -88,6 +88,9 @@ func TestTickerReset(t *testing.T) {
 	case <-timeout.C:
 		assert.Fail(t, "expected a tick")
 	}
+
+	err = ticker.Reset("invalid")
+	assert.Error(t, err)
 }
 
 func TestTicker(t *testing.T) {
