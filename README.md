@@ -1,14 +1,14 @@
-# cronticker
+# :alarm_clock: cronticker
 
 `cronticker` implements a ticker that works with crontab schedules.
 
-## Install
+## :rocket: Install
 
 ```
 go get github.com/martin-viggiano/cronticker
 ```
 
-## Usage
+## :books: Usage
 
 Go doc: [https://pkg.go.dev/github.com/martin-viggiano/cronticker]()
 
@@ -35,7 +35,7 @@ func main() {
 }
 ```
 
-## Useful links
+## :information_source: Useful links
 
 - [cron Wikipedia page](https://en.wikipedia.org/wiki/Cron)
 - [robfig/cron pkg](https://github.com/robfig/cron)
