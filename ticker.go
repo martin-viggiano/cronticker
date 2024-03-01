@@ -73,12 +73,12 @@ func (t *Ticker) Stop() {
 func (t *Ticker) Reset(spec string) error {
 	t.Stop()
 
-	t, err := newTicker(spec, t.parser, t.C, t.stop)
+	var err error
+	t, err = newTicker(spec, t.parser, t.C, t.stop)
 	if err != nil {
 		return err
 	}
 
-	go t.runTimer()
 	return nil
 }
 
