@@ -1,4 +1,4 @@
-package crontick
+package cronticker
 
 import (
 	"errors"
